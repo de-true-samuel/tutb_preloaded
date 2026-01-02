@@ -1,0 +1,1 @@
+Add the MVP of the "are you sure" div -> Set the event listeners of the button in the div -> Style the buttons in the Score board -> Add the accordion for showing the correct answers -> Add the blur effect for the "are you sure" div

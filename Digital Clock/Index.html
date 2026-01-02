@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Clock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="main-container">
+    <div class="clock-container">
+      <div id="dateCntr">
+      </div>
+      <div id="clock">
+      </div>
+      <button id="timeButton">
+        12/24 hrs
+      </button>
+      <div id="timeline">
+      </div>
+      <div id="date-input">
+        <input type="text" placeholder="DD" maxlength="2" id="input-day"> <span class="slash">-</span>
+        <input type="text" placeholder="MM" maxlength="2" id="input-month"> <span class="slash">-</span>
+        <input type="text" placeholder="YYYY" maxlength="4" id="input-year">
+      </div>
+    </div>
+  </div>
+  <script src="app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "title": "First note",
+        "content": "Writing my first note",
+        "tags": [
+            "experiment",
+            "learning"
+        ],
+        "created_at": "2025-12-29 12:46"
+    },
+    {
+        "id": 2,
+        "title": "Second note",
+        "content": "Writing second note",
+        "tags": [
+            "experiment",
+            "failure-testing"
+        ],
+        "created_at": "2025-12-29 12:51"
+    },
+    {
+        "id": 3,
+        "title": "Third note",
+        "content": "Wrtitng third note",
+        "tags": [
+            "learning"
+        ],
+        "created_at": "2025-12-29 12:53"
+    },
+    {
+        "id": 4,
+        "title": "another note",
+        "content": "just checking how to sort by title",
+        "tags": [
+            "sorting",
+            "learning"
+        ],
+        "created_at": "2025-12-29 13:49"
+    }
+]

@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #588599;
+  font-family: "Roboto Flex Medium";
+}
+@font-face {
+  font-family: "Roboto Flex Medium";
+  src: url("../../fonts/RobotoFlex-VariableFont.ttf");
+}
+#main-container{
+  width: 100dvw;
+  height: 100dvh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.clock-container {
+  /* display: grid;
+  grid-template-columns: 40px 100px 40px;
+  grid-template-rows: 50px 100px 30px 30px; */
+  padding: 30px 40px;
+}
+.clock-container > * {
+  text-align: center;
+}
+#clock {
+  font-size: 3.8rem;
+  font-weight: 700;
+  color: #ddd;
+  text-shadow: 0 0 20px #eee;
+  user-select: none;
+}
+#dateCntr {
+  color: #ddd;
+  text-shadow: 0 0 20px #eee;
+  user-select: none;
+  font-size: 2.5rem;
+}
+#timeline {
+  font-size: 1.3rem;
+  color: #eee;
+}
+#date-input {
+  display: grid;
+  grid-template-columns: 70px 20px 70px 20px 100px;
+  grid-template-rows: 50px;
+  column-gap: 10px;
+}
+.slash {
+  font-size: 3.8rem;
+  margin-top: -20px;
+  color: #333;
+}
+#date-input > input {
+  text-align: center;
+  font-size: 1.8rem;
+}
+#date-input > input::placeholder {
+  font-size: 1.8rem;
+}
+#date-input > input:focus {
+  background-color: #e4ddb7;
+  outline: none;
+  box-shadow: 0 0 5px rgb(190, 231, 243);
+}

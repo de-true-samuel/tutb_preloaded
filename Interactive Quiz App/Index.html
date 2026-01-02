@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Interactive Quiz App</title>
+    <meta charset = 'utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="main-container">
+      <!--START SCREEN-->
+      <div id="start-container">
+        <h2 class="welcome">
+          Welcome to the Quiz!
+        </h2>
+        <p>
+          Test your knowledge of "Operating Systems" with this interactive quiz. You'll be presented with multiple-choice questions, and can only pick an answer once per question. Good luck!
+        </p>
+        <button id="startBtn">Start</button>
+      </div>
+      <!--Start screen ends-->
+      <!--Quiz screen-->
+      <div id="quiz-screen" class="hidden">
+        <h2 id="ques-indicator">
+
+        </h2>
+        <div id="quiz-container">
+          <h2 id="question">
+
+          </h2>
+          <div id="opt-container">
+            
+          </div>
+          <div class="btn-container">
+            <button id="prev">Prev</button>
+            <button id="next">Next</button>
+            <button id="submit">Submit</button>
+          </div>
+          <div id="feedback-cntr">
+
+          </div>
+          <div id="warning" class="hidden">
+            <p>Are you sure?</p>
+            <div class="warning-button">
+              <button id="confirm-submit">Yes</button>
+              <button id="dont-submit">No</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <!--Quiz Screen ends-->
+
+      <!--SCORE BOARD-->
+      <div id="score-board" class="hidden">
+        <h2 id="total-score"></h2>
+        <button id="restart">Restart</button>
+        <button id="home-page">Home</button>
+
+        <details id="correct-summary">
+          <summary>Correct Answers &#128270</summary>
+        </details>
+      </div>
+    </div>
+    <div id="blocker" class="hidden">
+
+    </div>
+   <script src="app.js"></script>
+  </body>
+</html>
