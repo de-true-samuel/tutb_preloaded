@@ -76,7 +76,7 @@ def search_notes(notes):
   keyword = input("Search keyword: ").lower()
   found = False
   for note in notes:
-    if keyword in note['title'].lower() or keyword in note['content'].lower() or keyword in [tag.lower() for tag in note['tag']]:
+    if keyword in note['title'].lower() or keyword in note['content'].lower() or keyword in [tag.lower() for tag in note['tags']]:
       print('-'*40)
       print(f"[{note['id']}] {note['title']}")
       print(f"\t{note["content"]}")
